@@ -1,0 +1,226 @@
+.ulTop {
+  margin-left: 670px;
+  text-align: center;
+  display: flex;
+  gap: 30px;
+}
+.linia {
+  color: white;
+  background-color: transparent;
+  align-items: center;
+  text-align: center;
+  align-items: center;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.linia {
+  border-radius: 20%;
+  --angle: 0deg;
+  border: 0, 4px solid;
+  border-image: conic-gradient(
+      from var(--angle),
+      #000000,
+      #00f7ff,
+      #000000,
+      #000000,
+      #000000,
+      #000000,
+      #000000,
+      #000000,
+      #000000,
+      #000000,
+      #000000
+    )
+    1;
+
+  animation: 5s rotate linear infinite;
+}
+
+.linia:focus {
+  --angle: 0deg;
+  border: 0, 4px solid;
+  border-image: conic-gradient(
+      from var(--angle),
+      #00ff88,
+      #097744,
+      #87d8b2,
+      #3b6954,
+      #3faeb6,
+      #00eeff,
+      #28bfca,
+      #1ca1aa,
+      #336b51,
+      #278559,
+      #00ff88
+    )
+    1;
+
+  animation: 5s rotate linear infinite;
+}
+
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+.content {
+  margin-left: 5px;
+  margin-top: 80px;
+  border-radius: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 954px);
+}
+
+.content2 {
+  margin-left: 5px;
+  margin-top: -115px;
+  border-radius: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 954px);
+}
+
+.imgContent {
+  opacity: 0.8;
+  width: 944px;
+  border-radius: 10px;
+}
+
+.pContent {
+  margin-left: 50px;
+  bottom: 100px;
+  position: relative;
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  /* or 150% */
+
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.Rent {
+  position: relative;
+  padding: 10px 20px 10px 20px;
+  bottom: 172px;
+  left: 800px;
+  border-radius: 20%;
+  border: solid 2px rgb(34, 228, 218);
+  background: transparent;
+}
+
+.soloAll {
+  background: #33b7bc;
+  border-radius: 10px;
+  padding: 20px 200px;
+  position: relative;
+  bottom: 60px;
+  left: 720px;
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-size: 20px;
+  line-height: 15px;
+}
+
+.obout {
+  background: linear-gradient(to right, rgb(10, 10, 10), rgb(17, 17, 17));
+  height: 1250px;
+  padding-bottom: 100px;
+}
+
+.oboutUs {
+  color: white;
+  text-align: center;
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 160px;
+  line-height: 130px;
+}
+
+.year {
+  margin-left: 200px;
+  justify-content: center;
+  font-style: normal;
+}
+.data {
+  margin-left: 110px;
+  margin-top: 150px;
+  display: flex;
+}
+
+.yearh3 {
+  font-family: 'Stolzl';
+  padding: 5px;
+  font-size: 200px;
+  overflow: hidden;
+  color: #0c0c0c;
+  background-color: transparent;
+  text-shadow: 1px 2px 20px rgb(0, 255, 255);
+}
+span {
+  margin-left: -45px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 90px;
+  color: white;
+  text-shadow: none;
+}
+.all {
+  top: -750px;
+  position: relative;
+}
+
+.h3Top {
+  margin-left: 300px;
+  margin-top: 120px;
+  width: 1300px;
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 65px;
+  text-shadow: 0 0 10px#00eeff, 0 0 1px#00eeff, 0 0 1px#00eeff, 0 0 1px#00eeff;
+
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+.inglogo1 {
+  position: relative;
+  bottom: 180px;
+  width: 500px;
+  z-index: 2;
+  right: -1400px;
+}
+.inglogo2 {
+  height: 900px;
+  transform: scale(-1);
+  bottom: -300px;
+  position: relative;
+  z-index: 2;
+  right: 500px;
+}
+
+.imgH3 {
+  position: relative;
+  right: -250px;
+  bottom: -100px;
+}
+.imgH32 {
+  position: relative;
+  right: -1550px;
+  bottom: 20px;
+}

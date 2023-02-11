@@ -1,0 +1,107 @@
+.NavBar {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+
+}
+
+ul li {
+  list-style: none;
+  color: white;
+  margin-top: 30px;
+}
+
+a {
+  color: #0075B2; /* Цвет обычной ссылки */ 
+  text-decoration: none; /* Убираем подчёркивание у ссылок */
+ }
+ a:visited {
+  color: #ffffff; /* Цвет посещённой ссылки */
+ } 
+ a:hover {
+  color: #c0c0c0; /* Цвет ссылки при наведении */ 
+
+ }
+
+
+/*  */
+button{
+  background-color: transparent;
+  color: white;
+}
+
+.Btn {
+  --angle: 0deg;
+  border: 0, 4px solid;
+  border-image: conic-gradient(
+      from var(--angle),
+      #000000,
+      #00f7ff,
+      #000000,
+      #000000,
+      #000000,
+      #000000,
+      #000000,
+      #000000,
+      #000000,
+      #000000,
+      #000000
+    )
+    1;
+
+  animation: 5s rotate linear infinite;
+}
+
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+/*  */
+
+.leftNavBar {
+  gap: 40px;
+  padding-left: 110px;
+  display: flex;
+  color: rgb(244, 244, 244);
+}
+.rightNavBar {
+  margin-left: 620px;
+  text-align: center;
+  display: flex;
+}
+.displey {
+  gap: 40px;
+  display: flex;
+}
+.displeyBtn {
+  position: relative;
+  gap: 10px;
+  height: 70px;
+  display: flex;
+}
+.Btn {
+  margin-top: -10px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+
+.imgLogolg {
+  position: relative;
+  left: 328px;
+  bottom: -20px;
+}
+
+.imgp {
+  position: relative;
+  left: 180px;
+  bottom: -80px;
+  width: 150px;
+}

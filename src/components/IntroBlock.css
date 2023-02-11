@@ -1,0 +1,78 @@
+
+.introBlock {
+  display: flex;
+  margin-bottom: 200px;
+}
+.imgBlock{
+  height: 500px;
+
+}
+.imgCar {
+  opacity: 0.7;
+}
+.introP {
+  position: relative;
+  color: white;
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 60px;
+  top: -165px;
+  left: 60px;
+}
+
+.introP1 {
+  position: relative;
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 60px;
+  color: white;
+  top: -320px;
+  left: 850px;
+}
+.introP2 {
+  position: relative;
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  color: white;
+  top: -360px;
+  left: 850px;
+}
+.introP3 {
+  position: relative;
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 60px;
+  color: white;
+  top: -400px;
+  left: 850px;
+}
+.h2Intro {
+  margin-left: 80px;
+  color: rgb(255, 255, 255);
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 90px;
+  line-height: 90px;
+}
+
+.pIntro{
+  width: 600px;
+  margin-top: 50px;
+  color: white;
+  margin-left: 80px;
+  color: rgb(255, 255, 255);
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26.5px;
+}
